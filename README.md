@@ -6,14 +6,14 @@ It tracks the location of the device using a background service with Google Loca
 The service handles the following functionalities, 
 
 <ul>
-<li>Feature:<li/>
-<li>Application should allow to start and end a trip<li/>
-Location will be tracked for the duration of the trip.
-Location should be tracked at a regular time interval of 5 seconds
-Locations should be described as an JSON output.
+<li>Feature:</li>
+<li>Application should allow to start and end a trip</li>
+<li>Location will be tracked for the duration of the trip.</li>
+<li>Location should be tracked at a regular time interval of 5 seconds</li>
+<li>Locations should be described as an JSON output.</li>
 
-Sample output:
-{
+<li>Sample output:</li>
+<li>{
 "trip_id": "1",
 "start_time":"2021-04-06T10:10:10Z",
 "end_time": "2021-04-06T11:11:11Z",
@@ -32,7 +32,7 @@ Sample output:
 }
 ]
 }
-
+</li>
 </ul>
 
 Result
