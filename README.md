@@ -6,11 +6,37 @@ It tracks the location of the device using a background service with Google Loca
 The service handles the following functionalities, 
 
 <ul>
-<li>Connecting to Google LocationServices API</code>
-<li>Getting the current location</code>
-<li>Sharing the result to the Activity</code>
+Feature:
+Application should allow to start and end a trip
+Location will be tracked for the duration of the trip.
+Location should be tracked at a regular time interval of 5 seconds
+Locations should be described as an JSON output.
+
+Sample output:
+{
+"trip_id": "1",
+"start_time":"2021-04-06T10:10:10Z",
+"end_time": "2021-04-06T11:11:11Z",
+"locations":[
+{
+"latitude": 1.235,
+"longitide": 8.984,
+"timestamp": "2021-04-06T10:10:10Z",
+"accuracy": 10.9
+},
+{
+"latitude": 1.235,
+"longitide": 8.984,
+"timestamp": "2021-04-06T10:15:10Z",
+"accuracy": 10.0
+}
+]
+}
+
 </ul>
 
 Result
 
-![track_location_device_devdeeds](https://user-images.githubusercontent.com/6814816/31053345-fa030622-a6b8-11e7-92ca-d1108a0f404a.png)
+![track_location_device_devdeeds](https://raw.githubusercontent.com/gautamlook/LocationTracker/main/device-2021-09-19-121719.png)
+
+![track_location_device_devdeeds](https://raw.githubusercontent.com/gautamlook/LocationTracker/main/device-2021-09-19-121742.png)
