@@ -6,8 +6,8 @@ It tracks the location of the device using a background service with Google Loca
 The service handles the following functionalities, 
 
 <ul>
-Feature:
-Application should allow to start and end a trip
+<li>Feature:<li/>
+<li>Application should allow to start and end a trip<li/>
 Location will be tracked for the duration of the trip.
 Location should be tracked at a regular time interval of 5 seconds
 Locations should be described as an JSON output.
